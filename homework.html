@@ -1,0 +1,568 @@
+
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Walking With God</title>
+	<!--main javascript-->
+	<script type="text/javascript" src="moveit.js"></script>
+	
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/css/parallax_styles.css?v=3"/>
+	<link rel="stylesheet" type="text/css" media="screen and (min-device-height: 800px)" href="custom.css?v=1" />
+	<link rel="stylesheet" type="text/css" media="screen and (max-device-height: 799px) and (min-device-height: 500px)" href="custom_small.css?v=7" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-device-width: 1300px)" href="custom_pc.css" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body onload= " loadMissionData();">
+<!--	redifining classes	
+		royal chal				prem						rcy-- t_1  done in all four files
+		royal blooad			pillar of jersalem			rb --pj		done in all four files
+		servants of mother		mother star					som--ms		done in all four files
+		warrior of truth		mothers army				wot--marmy		done in all four files
+		team 5 class to be added
+
+-->
+
+<div id="fb-root"></div>
+
+<div id="container" class="wrapper">
+	<ul id="scene" class="scene unselectable"
+		data-friction-x="0.1"
+		data-friction-y="0.1"
+		data-scalar-x="125"
+		data-scalar-y="35">
+		<li class="layer" data-depth="0.00"></li>
+		<li class="layer" data-depth="0.10">
+		<div class="background"><video  autoplay muted loop id="videoloop">
+			<source src="assets/clouds.mp4" type="video/mp4">
+		  </video></div></li>
+
+<!--
+
+		<li class="layer" data-depth="0.10"><div class="light orange b phase-4"></div></li>
+		<li class="layer" data-depth="0.10"><div class="light purple c phase-5"></div></li>
+		<li class="layer" data-depth="0.10"><div class="light orange d phase-3"></div></li>
+
+Deleting three lights -->
+
+
+			<li class="layer" data-depth="0.15">
+				<ul class="rope depth-10">
+					<!--<li><img src="assets/images/rope.png" alt="Rope"></li>-->
+					<li class="hanger position-2">
+						<div class="board cloud-2 swing-1"></div>
+
+					</li>
+					<li class="hanger position-4">
+						<div class="board cloud-1 swing-3"></div>
+					</li>
+					<li class="hanger position-8">
+						<div class="board birds swing-5"></div>
+					</li>
+				</ul>
+			</li>
+			<li class="layer" data-depth="0.20"><h1 class="title"><em>परमेश्वर के साथ साथ </em><br> <strong>चलना</strong></h1></li>
+			<li class="layer" data-depth="0.30"><div><h3  id="thinkscore">please_wait...</h3><h2 class="thinkclass"><strong>नए गीत सुनना </strong></h2></div></li>
+			<li class="layer" data-depth="0.30"><div> <h3  id="forcescore">please_wait...</h3><h2 class="forcefullclass"><strong>उपदेश पुस्तक (साइन लेना)</strong></h2></div></li>
+			<li class="layer" data-depth="0.30"><div> <h3  id="powerscore">please_wait...</h3><h2 class="powerclass"><strong>बाइबिल पढ़ना</strong></h2></div></li>
+			<li class="layer" data-depth="0.30"><div> <h2  id="to_day">sunday</h2><h2 class="to_dayclass"><strong>आज दिन: </strong></h2></div></li>
+			<li class="layer" data-depth="0.50"><div>                                         <h2 class="iamreadyclass"><span>जो</span>
+																														<span>लोग</span>
+																														<span>कल</span>
+																														<span>तैयार थे !</span>
+																														<br><span>बधाई हो ! 🎉</span></h2></div></li>
+			<li class="layer" data-depth="0.50"><div> <h2  id="ready1"></h2></div></li>
+			<li class="layer" data-depth="0.50"><div> <h2  id="ready2"></h2></div></li>
+			<li class="layer" data-depth="0.50"><div> <h2  id="ready3"></h2></div></li>
+			<li class="layer" data-depth="0.50"><div> <h2  id="ready4"></h2></div></li>
+			<li class="layer" data-depth="0.50"><div> <h2  id="ready5"></h2></div></li>
+			<li class="layer" data-depth="0.50"><div> <h2  id="ready6"></h2></div></li>
+			<li class="layer" data-depth="0.50"><div> <h2  id="ready7"></h2></div></li>
+			<!--<li class="layer" data-depth="0.40"><h3 id="rcyscore" class="score2">Mornings Dew<em><br> Youth & Students</em></h3></li>
+			<li class="layer" data-depth="0.50"><h3 id="t_2_score" class="score3">Mornings Dew<em><br> Youth & Students</em></h3></li>
+			<li class="layer" data-depth="0.60"><h3 id="t_3_score" class="score4">Mornings Dew<em><br> Youth & Students</em></h3></li>-->
+
+			<li class="layer" data-depth="0.30">
+				<ul class="rope depth-30">
+					<!--<li><img src="assets/images/rope.png" alt="Rope"></li>-->
+					<li class="hanger position-1">
+						<div class="board cloud-1 swing-3"></div>
+											
+					</li>
+					<li class="hanger position-5">
+						<div class="board cloud-4 swing-1"></div>
+					</li>
+					<li class="hanger position-5">
+						<div class="board cloud-5 swing-1"></div>
+					</li>
+				</ul>
+			</li>
+			<li class="layer" data-depth="0.30"><div class="wave paint depth-30"></div></li>
+			<li class="layer" data-depth="0.40"><div class="wave plain depth-40"></div></li>
+			<li class="layer" data-depth="0.50"><div class="wave paint depth-50"></div></li>
+			<li class="layer" data-depth="0.60"><div class="lighthouse depth-60"></div></li>
+
+			<li class="layer" data-depth="0.60">
+				<ul class="rope depth-60">
+					<!--<li><img src="assets/images/rope.png" alt="Rope"></li>-->
+					<li class="hanger position-3">
+						<div class="board birds swing-5"></div>
+					
+					</li>
+					<li class="hanger position-6">
+						<div class="board cloud-2 swing-2"></div>
+					
+					</li>
+					<li class="hanger position-8">
+						<div class="board cloud-3 swing-4"></div>
+					</li>
+				</ul>
+			</li>
+				<!--
+			<li class="layer" data-depth="0.60"><div class="wave plain depth-60"></div></li>
+			<li class="layer" data-depth="0.80"><div class="wave plain depth-80"></div></li>
+			<li class="layer" data-depth="1.00"><div class="wave paint depth-100"></div></li>
+
+			Deleting waves -->
+		</ul>
+		 <section id="about" class="wrapper about hide accelerate">
+			<div class="cell accelerate">
+				<div class="cables center accelerate">
+					<div class="panel accelerate">
+						<header>
+							<h1><em>मेरे घर स्वर्ग <br></em> वापस जाने दें !</h1>
+						</header>
+						<p>
+							<strong> जिस देश से वे निकल आए थे, यदि उस की सुधि करते तो उन्हें लौट जाने का अवसर था। </strong> </p> 
+						<p> <em>"आईये हम आज भी ख़ुशी से स्वर्ग जाने की तयारी करें "</em> <br>  </p>
+						<p><strong>नए गीत सुनना </strong> = 5
+							<br><strong>उपदेश पुस्तक</strong> = 30
+							<br><strong>साइन देना</strong> = 20
+							<br><strong>बाइबिल पढ़ना</strong> = 5 
+							<br><strong>प्रचार / अपॉइंटमेंट</strong> = 70
+							<br><strong>मैं आज तैयार हूँ </strong> = 100
+							<br><br><strong>आज का मिशन पूरा ना करने पर 80 अंक घटा दिए जाएंगे </strong></p>
+							
+						
+						<ul class="links">
+							<li><a class="github" href="https://docs.google.com/spreadsheets/d/1oScMM_-6pzEPcJiQQ4KdRRJxPatDqeeoDyGBWxYW5cQ/edit#gid=186239970">गूगल शीट</a></li>
+							<li><a class="github" href="index.html"> स्कोर देखें !</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section> 
+		
+		<button id="toggle" class="toggle i">
+			<div class="cross">
+				<div class="x"></div>
+				<div class="y"></div>
+			</div>
+		</button> 
+		<div id="prompt" class="wrapper prompt hide accelerate">
+			<div class="cell accelerate">
+				<div class="panel center unselectable accelerate">
+					<button id="dismiss" class="dismiss">
+						<div class="cross">
+							<div class="x"></div>
+							<div class="y"></div>
+						</div>
+					</button>
+					<div class="tilt-scene">
+						<img class="tilt" src="assets/images/tilt.png">
+					</div>
+					<h2>Tilting is fun!</h2>
+					<p>For the best experience, check out this site on a mobile or tablet equipped with a gyroscope</p>
+					<p>(iPads are the coolest)</p>
+				</div>
+			</div>
+		</div>
+		
+	</div> 
+ 
+
+
+	<!-- Scripts -->
+	<script src="assets/scripts/js/libraries.min.js"></script>
+	<script src="deploy/jquery.parallax.js"></script>
+	<script>
+
+	// jQuery Selections
+	var $html = $('html'),
+			$container = $('#container'),
+			$prompt = $('#prompt'),
+			$toggle = $('#toggle'),
+			$about = $('#about'),
+			$scene = $('#scene');
+
+	// Hide browser menu.
+	(function() {
+		setTimeout(function(){window.scrollTo(0,0);},0);
+	})();
+
+	// Setup FastClick.
+	FastClick.attach(document.body);
+
+	// Add touch functionality.
+	if (Hammer.HAS_TOUCHEVENTS) {
+		$container.hammer({drag_lock_to_axis: true});
+		_.tap($html, 'a,button,[data-tap]');
+	}
+
+	// Add touch or mouse class to html element.
+	$html.addClass(Hammer.HAS_TOUCHEVENTS ? 'touch' : 'mouse');
+
+	// Resize handler.
+	(resize = function() {
+		$scene[0].style.width = window.innerWidth + 'px';
+		$scene[0].style.height = window.innerHeight + 'px';
+		if (!$prompt.hasClass('hide')) {
+			if (window.innerWidth < 600) {
+				$toggle.addClass('hide');
+			} else {
+				$toggle.removeClass('hide');
+			}
+		}
+	})();
+
+	// Attach window listeners.
+	window.onresize = _.debounce(resize, 200);
+	window.onscroll = _.debounce(resize, 200);
+
+	function showDetails() {
+		$about.removeClass('hide');
+		$toggle.removeClass('i');
+	}
+
+	function hideDetails() {
+		$about.addClass('hide');
+		$toggle.addClass('i');
+	}
+
+	// Listen for toggle click event.
+	$toggle.on('click', function(event) {
+		$toggle.hasClass('i') ? showDetails() : hideDetails();
+	});
+
+	// Pretty simple huh?
+	$scene.parallax();
+
+	// Check for orientation support.
+	setTimeout(function() {
+		if ($scene.data('mode') === 'cursor') {
+			$prompt.removeClass('hide');
+			if (window.innerWidth < 600) $toggle.addClass('hide');
+			$prompt.on('click', function(event) {
+				$prompt.addClass('hide');
+				if (window.innerWidth < 600) {
+					setTimeout(function() {
+						$toggle.removeClass('hide');
+					},1200);
+				}
+			});
+		}
+	},1000);
+
+	
+	</script>
+<script> // FOR ANIMATED NUMBERS/////////////////////////
+/*	var think = setInterval(thinktot, 3000)   // to handle latency of fetch increase interval here
+	var force = setInterval(forcetot, 3000)
+	var power = setInterval(powertot, 3000)
+	//var ms = setInterval(mstot, 1)
+	//var t5 = setInterval(t5tot, 1)
+	// var homework = setInterval(homeworkDone, 50)
+	let count1 = 1;
+	let count2 = 1;
+	let count3 = 1;
+//	let count4 = 1;
+//	let count5 = 1;
+	
+	
+	
+	var url1 ;
+	let url2 ;
+	let url3 ;
+//	let url4 ;
+//	let url5 ;
+*/	
+	// ========================================================================================================================================================================================
+// TRYING TO NORMALIZE ; THAT IS NO NUMBER SCROLLS
+function loadMissionData (){
+  //  LOADING TODAY'S DAY FIRST OF ALL
+		var myDate = new Date();
+        var myDay = myDate.getDay();
+        
+        // Array of days.
+        var weekday = [' रविवार', ' सोमवार', ' मंगलवार',
+            ' बुधवार', ' गुरुवार', ' शुक्रवार', ' सब्त'
+        ];
+		var dd = myDate.getDate() + '-';
+		var mm = myDate.getMonth()+1  + '-'; //becuase January is counted as  0.
+		var yyyy = myDate.getFullYear();
+
+		
+		day = weekday[myDay];
+		day = day + ' का मिशन ';
+		const date_as_string = `${dd}${mm}${yyyy}${day}`; //concat variable which are numbers as strings		
+		document.querySelector("#to_day").innerHTML = date_as_string;
+		
+		// ========================================================================================================================================================================================
+               url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b19";
+ // 1 think of heaven         
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+				 document.querySelector("#thinkscore").innerHTML = text
+                       } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+ // =====================================================================================================================================================================================================       
+              url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b20";
+	// 2 Forcefull haven       
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+				 document.querySelector("#forcescore").innerHTML = text
+                   } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text; 
+// =====================================================================================================================================================================================================       
+               	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b21";
+	// 3 spiritual power gather         
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+                 document.querySelector("#powerscore").innerHTML = text
+                 } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+
+// =====================================================================================================================================================================================================       
+               	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b25";
+	// Who is ready 1         
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+                 document.querySelector('#ready1').innerHTML = text
+                 } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+// =====================================================================================================================================================================================================       
+               	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b26";
+	// Who is ready  2       
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+                 document.querySelector("#ready2").innerHTML = text
+                 } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+// =====================================================================================================================================================================================================       
+               	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b27";
+	// Who is ready    3     
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+                 document.querySelector("#ready3").innerHTML = text
+                 } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+// =====================================================================================================================================================================================================       
+               	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b28";
+	// Who is ready   4      
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+                 document.querySelector("#ready4").innerHTML = text
+                 } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+// =====================================================================================================================================================================================================       
+               	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b29";
+	// Who is ready  5       
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+                 document.querySelector("#ready5").innerHTML = text
+                 } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+// =====================================================================================================================================================================================================       
+               	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b30";
+	// Who is ready   6      
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+                 document.querySelector("#ready6").innerHTML = text
+                 } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+// =====================================================================================================================================================================================================       
+               	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b31";
+	// Who is ready     7    
+                fetch(url) 
+                .then(response => response.text())
+                .then(text => {
+                 console.log(text)
+                 document.querySelector("#ready7").innerHTML = text
+                 } 
+                    //pass url value to variable
+                  ); delete url;
+                     delete text;
+
+					}
+							
+						
+/*	function testvalue(){
+	delete url;  //both variables initialized
+	delete text;
+
+	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b19";
+								// Took total sign from google sheets 
+	
+	fetch(url) 
+	.then(response => response.text())
+	.then(text => {
+		setInterval(() => {  console.log(text); }, 6000); //since fetch do not instantly returns we need to set interval
+		url1 = text; }); //and stored it in total variable 
+	}
+
+	function thinktot() {
+		testvalue();
+		
+		count1++
+		document.querySelector("#thinkscore").innerHTML = count1
+		if (count1 > url1 ) {
+			clearInterval(think)
+		}
+		
+	}
+	
+	function testvalue2(){
+		delete url;  //both variables initialized
+		delete text;
+
+	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b20";
+										// Took total sign from google sheets          
+	fetch(url) 
+	.then(response => response.text())
+	.then(text => {
+		setInterval(() => {  console.log(text); }, 6000); //since fetch do not instantly returns we need to set interval
+		url2 = text; }); //and stored it in total variable 
+	}
+
+	function forcetot() {
+		testvalue2 (); 
+		count2++
+		document.querySelector("#forcescore").innerHTML = count2
+		if (count2 > url2 ) {
+			clearInterval(force)
+		}
+		
+	}
+
+	function testvalue3(){
+		delete url;  //both variables initialized
+		delete text;
+		
+	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=b21";
+														// Took total sign from google sheets          
+	fetch(url) 
+	.then(response => response.text())
+	.then(text => {
+		setInterval(() => {  console.log(text); }, 6000); //since fetch do not instantly returns we need to set interval
+		url3 = text; }); //and stored it in total variable 
+	}
+
+	function powertot() {
+		 testvalue3 (); //call fetch to give set fetched value to variable
+
+		count3++
+		document.querySelector("#powerscore").innerHTML = count3
+		if (count3 > url3) {
+			clearInterval(power)
+		}
+		
+	} */
+
+/*
+	function testvalue4(){
+		delete url;  //both variables initialized
+		delete text;
+		
+	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=h3";
+														// Took total sign from google sheets          
+	fetch(url) 
+	.then(response => response.text())
+	.then(text => {
+		setInterval(() => {  console.log(text); }, 6000); //since fetch do not instantly returns we need to set interval
+		url4 = text; }); //and stored it in total variable 
+	}
+
+	function mstot() {
+		testvalue4 (); //call fetch to give set fetched value to variable
+
+		count4++
+		document.querySelector("#t_2_score").innerHTML = count4
+		if (count4 > url4 ) {
+			clearInterval(ms)
+		}
+	
+	}	
+
+
+	
+	function testvalue5(){
+		delete url;  //both variables initialized
+		delete text;
+		
+	url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR45xjRksAnj4s3bWcLyARSjUWp7hY7rYcATEPty0MHEPdMT6-2WH2In9bjldlgTHSkR2SQn5Jl8tCm/pub?gid=1203789969&single=true&output=csv&range=h6";
+														// Took total sign from google sheets          
+	fetch(url) 
+	.then(response => response.text())
+	.then(text => {
+		setInterval(() => {  console.log(text); }, 6000); //since fetch do not instantly returns we need to set interval
+		url5 = text; }); //and stored it in total variable 
+	}
+	
+	function t5tot() {
+		testvalue5();
+		count5++
+		document.querySelector("#team5score").innerHTML = count5
+		if (count5 > url5) {
+			clearInterval(t5)
+		}
+		delete url;  //both variables initialized
+		delete total;
+	} */
+</script>
+
+</body>
+</html>

@@ -1,0 +1,543 @@
+#t_1_id {
+  position: relative;
+  top: 25%;  /*increase this to list others images*/
+  
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(70, 73, 240, 0.24));
+  filter: drop-shadow(2px 5px 5px rgba(126, 128, 223, 0.432));
+  animation: t_1_move 12s 0s 1;
+  left: -160%;
+  animation-fill-mode: forwards; animation-delay: 6s;
+  
+} @keyframes t_1_move {
+  0% {
+      left: -160%;
+  }
+  100% {
+      left: var(--t_1data); /*to move image to desired location */
+  }
+}
+.t_1 {
+  height: 90px;
+  width: auto;
+}
+
+
+
+
+#t_2_id{
+  position: relative;
+  top: 40%;  /*increase this to list others images*/
+  width: auto;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(70, 73, 240, 0.24));
+  filter: drop-shadow(2px 5px 5px rgba(126, 128, 223, 0.432));
+  animation: t2_move 12s 0s 1;
+  left: -160%;
+  animation-fill-mode: forwards; animation-delay: 6s;
+  
+} 
+
+@keyframes t2_move {
+  0% {
+      left: -160%;
+  }
+  100% {
+      left: var(--t_2data); /*to move image to desired location */
+  }
+} 
+.t_2{
+  height: 90px;
+  width: auto;
+}
+
+
+
+
+#t_3_id{
+  position: relative;
+  width: auto;
+  top: 55%;  /*increase this to list others images*/
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(70, 73, 240, 0.24));
+  filter: drop-shadow(2px 5px 5px rgba(126, 128, 223, 0.432));
+  animation: t3_move 12s 0s 1;
+  left: -160%;
+  animation-fill-mode: forwards; animation-delay: 6s;
+  
+} @keyframes t3_move {
+  0% {
+      left: -160%;
+  }
+  100% {
+      left: var(--t_3data); /*to move image to desired location */
+  }
+}
+.t_3{
+  height: 90px;
+  width: auto;
+}
+
+
+#t_4_id{
+  position: relative;
+  
+  top: 70%;  /*increase this to list others images*/
+  width: auto;
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(70, 73, 240, 0.24));
+  filter: drop-shadow(2px 5px 5px rgba(126, 128, 223, 0.432));
+  animation: t4_move 12s 0s 1;
+  left: -160%;
+  animation-fill-mode: forwards; animation-delay: 6s;
+  
+} @keyframes t4_move {
+  0% {
+      left: -160%;
+  }
+  100% {
+      left: var(--t_4data); /*to move image to desired location */
+  }
+}
+.t_4{
+  height: 90px;
+  width: auto;
+}
+
+
+#t_5_id{
+position: relative;
+
+top: 85%;  /*increase this to list others images*/
+width: auto;
+-webkit-filter: drop-shadow(5px 5px 5px rgba(70, 73, 240, 0.24));
+filter: drop-shadow(2px 5px 5px rgba(126, 128, 223, 0.432));
+animation: t5_move 12s 0s 1;
+left: -160%;
+animation-fill-mode: forwards; animation-delay: 6s;
+
+} @keyframes t5_move {
+0% {
+    left: -160%;
+}
+100% {
+    left: var(--t_5data); /*to move image to desired location */
+}
+}
+.t_5{
+height: 90px;
+width: auto;
+}
+
+
+/*SCORE BOARD ARE CSS HERE*/
+
+.t_4_name_class{
+    font-size: 1.5em;
+  right: 26%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 52vh; 
+}
+#t_4_score{
+    font-size: 1.5em;
+  right: 6%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 52vh; 
+}
+
+.t_1_name_class{
+    font-size: 1.5em;
+  right: 26%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 40vh; 
+}
+#t_1_score{
+    font-size: 1.5em;
+  right: 6%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 40vh; 
+}
+
+.t_2_name_class{
+    font-size:1.5em;
+  right: 26%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 44vh; 
+}
+
+#t_2_score{
+    font-size: 1.5em;
+  right: 6%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 44vh; 
+}
+
+.t_3_name_class{
+    font-size: 1.5em;
+  right: 26%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 48vh; 
+}
+
+#t_3_score{
+    font-size: 1.5em;
+  right: 6%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 48vh; 
+}
+
+.t_5_name_class{
+  font-size: 1.5em;
+right: 26%;
+text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+margin-top: -0.7em;
+position: absolute;
+width: 100%;
+top: 56vh; 
+}
+#t_5_score{
+  font-size: 1.5em;
+right: 6%;
+text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+margin-top: -0.7em;
+position: absolute;
+width: 100%;
+top: 56vh; 
+}
+
+
+
+
+
+
+.thinkclass{
+    font-size: 1.5em;
+  left: -18%;
+  color: blue;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 36vh; 
+}
+#thinkscore{
+    font-size: 1.5em;
+    left: 0%;
+    color: blue;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 36vh; 
+}
+
+.forcefullclass{
+    font-size: 1.5em;
+  left: -18%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  color: blue;
+  position: absolute;
+  width: 100%;
+  top: 44vh; 
+}
+#forcescore{
+    font-size: 1.5em;
+    left: 0%; 
+    color: blue;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 44vh; 
+}
+
+.powerclass{
+    font-size:1.5em;
+  left: -18%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  color: blue;
+  width: 100%;
+  top: 52vh; 
+}
+
+#powerscore{
+    font-size: 1.5em;
+  left: 0%;
+  color: blue;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 52vh; 
+}
+
+
+
+.iamreadyclass{
+  font-size: 2em;
+  font-weight: 1000;
+  position: relative;
+    top: 60vh;
+    left: 16%;
+ }
+   /*New glowing effect 2*/
+
+   .iamreadyclass {
+    
+    color: rgb(243, 6, 6);
+    display: inline-block;
+    padding: 0;
+    white-space: nowrap;
+    
+}
+
+/* Animation as suggested by Ismail Ghallou */
+@keyframes glow {
+    to {
+     text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #d25ed4, 0 0 16px #d25ed4, 0 0 20px #d25ed4, 0 0 24px #d25ed4, 0 0 28px #d25ed4;
+    }
+  }
+  .iamreadyclass{
+          text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 6px #292736, 0 0 8px #292736, 0 0 10px #292736, 0 0 12px #cfe609, 0 0 14px #b9eb04;
+          animation: glow .59s infinite alternate;
+  }
+
+
+ /*AND NOW ADDING NAMES GLOWING AS THOSE WHO WON */
+
+#ready1, #ready2, #ready3, #ready4, #ready5, #ready6, #ready7{
+  color:white;
+  animation-name:glow;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+}
+
+@keyframes glow{
+  from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
+  to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
+}
+
+
+#ready1 
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 52vh; 
+}
+
+
+#ready2
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 56vh;
+} 
+
+
+#ready3
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 60vh;
+} 
+
+
+#ready4
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 64vh;
+} 
+
+
+#ready5
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 68vh;
+} 
+
+
+#ready6
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 72vh;
+} 
+
+
+#ready7
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 76vh;
+} 
+
+
+.to_dayclass{
+    font-size:1.5em;
+  left: -18%;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  color: black;
+  width: 100%;
+  top: 29vh; 
+}
+
+#to_day{
+    font-size: 1.5em;
+  left: 2%;
+  color: black;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 29vh; 
+}
+
+.layer {
+    display: block;
+    height: 100%;
+    width: 200%;
+    padding: 0;
+    margin: 0; }
+
+    .lighthouse {
+        margin: 0px -112px;
+        background-size: 292px 582px;
+        right: -30%;
+        height: 582px;
+        width: 292px; }
+
+
+
+
+
+
+
+
+
+/*
+ #t_4_id2{
+    position: absolute;
+    
+    top: 10vh;
+    left: 20%;
+    height: 90px;
+    text-align: center;
+    
+    
+    
+    visibility: hidden;
+    opacity: 0;
+    
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    font-size:      300px;
+    color: rgb(225, 226, 236);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(25, 25, 248), 0 0 5px rgb(21, 21, 248); 
+    box-shadow: 0 4px 6px -5px hsl(0, 73%, 49%), inset 0px 4px 6px -5px rgb(180, 25, 25); 
+    border-radius: 2em; 
+   }
+   
+   #t_4_id:hover 
+{
+    cursor: pointer;
+    transform: scale(2.0);
+       }
+  */ 
+  
+/*HoverING EFFECTS */
+
+   /* Child Text Container 
+
+   .rcy + div, .t_4 + div, .t_2rmy + div, .t_3 + div{
+    position: fixed;
+    bottom: 0;
+    left: 68%;
+    background: rgba(0, 0, 0, 0.411);
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    font-size:      30px;
+    color: rgb(146, 162, 255);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(25, 25, 248), 0 0 5px rgb(21, 21, 248); 
+    box-shadow: 0 4px 6px -5px hsl(0, 73%, 49%), inset 0px 4px 6px -5px rgb(180, 25, 25); 
+    border-radius: 2em; 
+   }
+   
+   
+   .rcy:Hover, .t_4:Hover, .t_2rmy:Hover,  .t_3:Hover
+{
+    cursor: pointer;
+    transform: scale(2.0);
+   }
+   
+   .rcy:Hover + div, .t_4:Hover + div, .t_2rmy:Hover + div,  .t_3:Hover + div
+
+{
+    width: 300px;
+    padding: 8px 10px;
+    
+    visibility: visible;
+    opacity: 0.9; 
+   }
+
+   */
