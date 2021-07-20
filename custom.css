@@ -329,8 +329,8 @@ top: 56vh;
 
  /*AND NOW ADDING NAMES GLOWING AS THOSE WHO WON */
 
-#ready1, #ready2, #ready3, #ready4, #ready5, #ready6, #ready7{
-  color:white;
+#ready1, #ready2, #ready3, #ready4, #ready5, #ready6, #ready7, #ready8, #ready9, #ready10, #ready11, #ready12{
+  color:rgb(14, 4, 68);
   animation-name:glow;
   animation-duration:1s;
   animation-iteration-count:infinite;
@@ -338,8 +338,8 @@ top: 56vh;
 }
 
 @keyframes glow{
-  from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
-  to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}
+  from{text-shadow:0px 0px 5px rgb(221, 236, 10),0px 0px 5px #614ad3;}
+  to{text-shadow:0px 0px 20px rgb(0, 0, 0),0px 0px 20px #614ad3;}
 }
 
 
@@ -351,7 +351,7 @@ top: 56vh;
   margin-top: -0.7em;
   position: absolute;
   width: 100%;
-  top: 56vh; 
+  top: 52vh; 
 }
 
 
@@ -363,7 +363,7 @@ top: 56vh;
   margin-top: -0.7em;
   position: absolute;
   width: 100%;
-  top: 60vh;
+  top: 56vh;
 } 
 
 
@@ -375,7 +375,7 @@ top: 56vh;
   margin-top: -0.7em;
   position: absolute;
   width: 100%;
-  top: 64vh;
+  top: 60vh;
 } 
 
 
@@ -387,7 +387,7 @@ top: 56vh;
   margin-top: -0.7em;
   position: absolute;
   width: 100%;
-  top: 68vh;
+  top: 64vh;
 } 
 
 
@@ -399,7 +399,7 @@ top: 56vh;
   margin-top: -0.7em;
   position: absolute;
   width: 100%;
-  top: 72vh;
+  top: 68vh;
 } 
 
 
@@ -411,7 +411,7 @@ top: 56vh;
   margin-top: -0.7em;
   position: absolute;
   width: 100%;
-  top: 76vh;
+  top: 72vh;
 } 
 
 
@@ -423,8 +423,64 @@ top: 56vh;
   margin-top: -0.7em;
   position: absolute;
   width: 100%;
+  top: 76vh;
+} 
+
+#ready8
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
   top: 80vh;
 } 
+
+#ready9
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 84vh;
+} 
+
+#ready10
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 88vh;
+} 
+
+#ready11
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 92vh;
+} 
+
+#ready12
+{
+  font-size: 1.5em;
+  right: 30%;
+  text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
+  margin-top: -0.7em;
+  position: absolute;
+  width: 100%;
+  top: 96vh;
+} 
+ 
 
 .to_dayclass{
     font-size:1.5em;
